@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+    selector: 'app-root',
+    template: `
+    <div class="page-content">
+        <router-outlet></router-outlet>
+    </div>`,
+    styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
-  title = 'tema_web';
-}
+
+export class AppComponent {}
