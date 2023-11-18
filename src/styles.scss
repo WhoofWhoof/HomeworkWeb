@@ -54,6 +54,13 @@ $tema_web-theme: mat.define-light-theme((
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Khand-Bold";
+  src: url("assets/font/Khand-Bold.ttf");
+  font-weight: bold;
+  font-style: bold;
+}
+
 *{
     font-family: "Inter-Bold";
 }
